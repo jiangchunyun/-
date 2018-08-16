@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:id="@+id/content"
+        android:layout_height="wrap_content">
+    </FrameLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/button"
+        android:background="#F2F2F2"
+        android:layout_width="match_parent"
+        android:weightSum="10"
+        android:layout_alignParentBottom="true"
+        android:layout_height="60dp">
+        <LinearLayout
+            android:id="@+id/good_word"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_width="23dp"
+                android:src="@drawable/main_1"
+                android:layout_height="23dp" />
+            <TextView
+                android:layout_width="20dp"
+                android:text="好文"
+                android:textSize="10dp"
+                android:layout_height="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:id="@+id/book_house"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_width="23dp"
+                android:src="@drawable/main_2"
+                android:layout_height="23dp" />
+            <TextView
+                android:layout_width="20dp"
+                android:text="书屋"
+                android:textSize="10dp"
+                android:layout_height="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:id="@+id/home"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_width="23dp"
+                android:src="@drawable/main_3"
+                android:layout_height="23dp" />
+            <TextView
+                android:layout_width="20dp"
+                android:text="首页"
+                android:textSize="10dp"
+                android:layout_height="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:id="@+id/book_shelf"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_width="23dp"
+                android:src="@drawable/main_4"
+                android:layout_height="23dp" />
+            <TextView
+                android:layout_width="20dp"
+                android:text="书架"
+                android:textSize="10dp"
+                android:layout_height="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:id="@+id/book_chat"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_width="23dp"
+                android:src="@drawable/main_5"
+                android:layout_height="23dp" />
+            <TextView
+                android:layout_width="20dp"
+                android:text="书聊"
+                android:textSize="10dp"
+                android:layout_height="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_height="50dp">
+            <ImageView
+                android:layout_width="23dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_height="23dp" />
+            <TextView
+                android:layout_width="20dp"
+                android:text="好文"
+                android:textSize="10dp"
+                android:layout_height="20dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
